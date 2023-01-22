@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+ # Platinum Jyms App
+ 
+ Platinum Jym Web Application is a Exercises Tutorial one stop solution to its users.
+ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+### `Salient features`
 
-## Available Scripts
+-> Multipager made by ReactJS
 
-In the project directory, you can run:
+->Material UI for mordern and responsive UI design
 
-### `npm start`
+->`Pagination` was used to render more number of Exercises 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-> 2 Diffrent API's,`Axios` was used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ##Fetures more than 1300 Exercises with GIF tuts. 
 
-### `npm test`
+![Screenshot (362)](https://user-images.githubusercontent.com/55550358/185802609-15e21e9c-1cea-42e2-bcf5-e62915e302da.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot (363)](https://user-images.githubusercontent.com/55550358/185802617-1249c843-0cc7-4a8e-a2c9-c43fa33e811e.png)
+![Screenshot (364)](https://user-images.githubusercontent.com/55550358/185802618-c14813e6-6ead-44af-b1a7-beb7e6e347ac.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ![Screenshot (365)](https://user-images.githubusercontent.com/55550358/185802627-46829777-e632-4072-aa6e-edfd6377f985.png)
+  
+![Screenshot (366)](https://user-images.githubusercontent.com/55550358/185802636-9b4940ed-e9e7-41fa-a689-e0b9544ccbf6.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (367)](https://user-images.githubusercontent.com/55550358/185802642-23504d30-9fc7-4414-b0ad-68581bf279ed.png)
 
-### `npm run eject`
+ ### `Key Features`
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ 
+ ->exercises Searchable based on 👍
+ 
+1 Name of Exercise
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2 Body part involved
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3 Equipment used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4 Target Muscle
 
-## Learn More
+->Instantly access exercises based on Body part
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+->Details of the exercise are Viewed
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+->video Tutorial of the Exercise are Provided
 
-### Code Splitting
+->Related exercises are sugested
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+->Exercises targeting similar muscle are shown
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
