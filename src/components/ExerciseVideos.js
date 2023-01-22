@@ -1,4 +1,4 @@
-import { MusicNote } from '@mui/icons-material';
+
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 
@@ -14,27 +14,26 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
           flexDirection: { lg: 'row' },
           gap: { lg: '70px', xs: '0' }
         }} >
-{
-  exerciseVideos?.slice(0,5).map((item, index) => (
-<a 
-  key={index}
-  className="exercise-video"
-  href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
-target="_blank"
-rel="nooreferrer"
-  >
-    <img src={item.video.thumbnails[0].url} alt={item.video.title}></img>
-    <Box>
-      <Typography variant='h6' fontSize="120% "color="#000">
-{item.video.title}
-      </Typography>
-      <Typography variant='h6' fontSize="100%" color="#000">
-{item.video.channelName}</Typography>
-      
+        {
+          exerciseVideos?.slice(0, 5).map((item, index) => (
+            <a
+              key={index}
+              className="exercise-video"
+              href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
+              target="_blank"
+              rel="nooreferrer"
+            >
+              <img src={item.video.thumbnails[0].url} alt={item.video.title}></img>
+              <Box>
+                <Typography variant='h6' fontSize="120% " color="#000">
+                  {item.video.title}
+                </Typography>
+                <Typography variant='h6' fontSize="100%" color="#000">
+                  {item.video.channelName}</Typography>
 
-    </Box>
-  </a>
-))}
+              </Box>
+            </a>
+          ))}
       </Stack>
 
 

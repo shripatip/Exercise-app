@@ -8,7 +8,8 @@ import SimilarExercises from '../components/SimilarExercise'
 import { youtubeOptions } from '../utils/fetchData';
 export const ExerciseDetail = () => {
   useEffect(() => {
-  window.scrollTo(0, 0);},[]);
+    window.scrollTo(0, 0);
+  }, []);
 
   const [exDetail, setexDetail] = useState({});
   const [targetMulscleSimilar, settargetMulscleSimilar] = useState([]);
@@ -31,15 +32,13 @@ export const ExerciseDetail = () => {
 
       settargetEquipmentSimilar(TargetEquipmentData.data);
 
-
-
     }
 
     fetchDetailData();
 
   }, [id]);
 
-  
+
   return (
     <Box>
       <Detail exerciseDetail={exDetail} />
