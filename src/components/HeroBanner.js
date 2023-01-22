@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Typography, Stack, Button } from '@mui/material';
 import BannerImage from "../assets/images/banner.png";
 
+
 const HeroBanner = () => {
     return (
         <Box sx={{ mt: { lg: '212px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px">
@@ -17,8 +18,8 @@ const HeroBanner = () => {
                 lineHeight="35px" mb={3.5}>
                 Cheak out the most effective Exercises
             </Typography>
-            <Button variant="contained" 
-   sx={{backgroundColor:"#FF2625",padding:"10px"}} href="#exercises">Explore Exercises</Button>
+            <Button variant="contained"
+                sx={{ backgroundColor: "#FF2625", padding: "10px" }} href="#exercises">Explore Exercises</Button>
             <Typography fontWeight="600"
                 color='#ff2625'
                 sx={{
